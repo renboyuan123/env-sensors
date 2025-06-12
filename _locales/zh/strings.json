@@ -1,0 +1,20 @@
+{
+    "env-sensors/description": "环境监测套件扩展包",
+    "env-sensors/BMP180/init": "初始化BMP180 地址 {0}",
+    "env-sensors/BMP180/readTemperature": "读取温度(℃)",
+    "env-sensors/BMP180/readPressure": "读取气压(hPa)",
+    "env-sensors/DHT11/setCalibration": "设置DHT11校准值 {0}",
+    "env-sensors/DHT11/readTemperature": "读取温度(℃) 引脚 {0}",
+    "env-sensors/DHT11/readHumidity": "读取湿度(%) 引脚 {0}",
+    "env-sensors/OLED/init": "初始化OLED 宽度 {0} 高度 {1} 地址 {2}",
+    "env-sensors/OLED/showString": "显示文字 行 {0} 列 {1} 内容 {2}",
+    "env-sensors/OLED/showNumber": "显示数字 行 {0} 列 {1} 值 {2}",
+    "env-sensors/OLED/clear": "清屏",
+    "env-sensors/LoRa/init": "初始化LoRa 频率 {0}",
+    "env-sensors/LoRa/sendData": "发送数据 {0} 至地址 {1}",
+    "env-sensors/LoRa/onReceived": "当收到LoRa数据时",
+    "env-sensors/GPS/init": "初始化GPS 波特率 {0} 引脚 {1}",
+    "env-sensors/GPS/getLatitude": "获取纬度",
+    "env-sensors/GPS/getLongitude": "获取经度",
+    "env-sensors/GPS/getSpeed": "获取速度(km/h)"
+}

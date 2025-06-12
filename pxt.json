@@ -1,0 +1,18 @@
+{
+    "name": "env-sensors",
+    "version": "1.0.0",
+    "description": "Micro:bit环境监测套件扩展包（BMP180, DHT11, OLED, LoRa, GPS）",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "_locales/zh/strings.json"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj",
+    "supportedLocales": ["zh"]
+}
